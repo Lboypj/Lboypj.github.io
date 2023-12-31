@@ -1,0 +1,124 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ff6600;
+}
+
+pre {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
+
+a {
+    color: #ff6600;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span {
+    position: fixed;
+    bottom: 10px;
+    color: #999;
+    font-size: 0.8rem;
+}
+
+/* Contact Us Page Styles */
+.contact-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+  }
+  
+  .contact-us h1, .contact-us h2 {
+    text-align: center;
+  }
+  
+  .contact-us pre {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .contact-us hr {
+    margin: 40px 0;
+    border: 1px solid #ddd;
+  }
+  
+  .contact-us div {
+    margin-bottom: 10px;
+  }
+  
+  .contact-us a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 0;
+    display: block;
+  }
+  
+  .contact-us a:hover {
+    background-color: #333;
+    border-radius: 5px;
+  }
+  
+  .contact-us span {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  /* CSS in style.css */
+
+.announcement {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .announcement h2 {
+    color: #333;
+  }
+  
+  .announcement p {
+    color: #555;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .container a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+  }
+  
+  .container a:hover {
+    color: #444;
+  }
+  

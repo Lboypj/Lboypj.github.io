@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Details</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script>
+        function validateForm() {
+            var name = document.getElementById('name').value.trim();
+            var email = document.getElementById('email').value.trim();
+            var message = document.getElementById('message').value.trim();
+            
+            if (name === '') {
+                alert('Please enter your name.');
+                return false;
+            }
+            
+            
+            return true;
+        }
+        
+        function clearInitialValue(field) {
+            if (field.defaultValue === field.value) {
+                field.value = '';
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="contact-us">
+        <h1><b>Contact Us</b></h1>
+        
+        <pre>
+            You can contact us on WhatsApp: +27 64 789 4569
+            or find us on Instagram: @PJanime
+            or Facebook: @PJanime_Thor
+        </pre>
+    </div>
+    
+    <hr>
+    
+    <div class="contact-us">
+        <h2>Contact Form</h2>
+        
+        <form action="mailto:your@email.com" method="post" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="Your Name" onfocus="clearInitialValue(this)">
+            <br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="Your Email" onfocus="clearInitialValue(this)">
+            <br><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50">Your Message</textarea>
+            <br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+    <div class="contact-us">
+        <h2>Links Section</h2>
+        <div><a href="index.html">HOME</a></div>
+        <div><a href="Contact Us.html">CONTACT</a></div>
+        <div><a href="Recommendation.html">Reccomendations</a></div>
+        <div><a href="Announcements.html">Announcements</a></div>
+        <div><a href="About Us.html">About Us</a></div>
+        <div><a href="Merchandise.html">Merchandise</a></div>
+        <span>Copyright&copy; PJanime.2023 All Rights Reserved</span>
+    </div>
+</body>
+</html>
