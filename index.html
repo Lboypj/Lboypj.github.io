@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PJanime</title>
+  <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body >
+
+  <header>
+
+    <div class="menu-icon" id="menuIcon">&#9776;</div>
+
+     <!-- Sign-up and Login links -->
+  <div class="user-actions" id="userActions" style="display: none;">
+    <a href="signup and login.html" class="user-action">Sign Up|| Login</a>
+   
+  </div>
+
+  <div class="logo" >
+    <img src="images/PJanime-logos_transparent.png" width =" 150">
+   </div>
+
+  <div class="search-icon" id="searchIcon">&#128269;</div>
+
+  <!-- Search bar -->
+  <div class="search-bar" id="searchBar" style="display: none;">
+    <input type="text" id="searchInput" placeholder="Search...">
+    <button id="searchButton">Search</button>
+  </div>
+  
+  
+  <div id="searchResults"></div>
+
+  
+  <div class="anime-links" style="display: none;">
+    <!--new release-->
+    <a href="AOT.html" class="anime-link">Attack on Titan</a>
+    <a href="Black butler.html" class="anime-link">Black butler</a>
+    <a href="blue lock.html" class="anime-link">blue lock</a>
+    <a href="dakaichi.html" class="anime-link">dakaichi</a>
+    <a href="Demon slayer.html" class="anime-link">Demon slayer</a>
+    <a href="High rise invasion.html" class="anime-link">High rise invasion</a>
+    <a href="hotarubi no mori.html" class="anime-link">hotarubi no mori</a>
+    <a href="jijutsu kaisen.html" class="anime-link">jijutsu kaisen</a>
+    <a href="naruto.html" class="anime-link">naruto</a>
+    <a href="spirited away.html" class="anime-link">spirited away</a>
+    <a href="tokyo ghoul.html" class="anime-link">tokyo ghoul</a>
+    <a href="Your Name.html" class="anime-link">Your Name</a>
+
+    <!--new episode-->
+    <a href="Dangan.html" class="anime-link">Dangan</a>
+    <a href="blackClover.html" class="anime-link">blackClover</a>
+    <a href="HXH.html" class="anime-link">hunter x hunter</a>
+    <a href="re zero.html" class="anime-link">re zero</a>
+    <a href="Assassination Class.html" class="anime-link">Assassination Class</a>
+    <a href="Class of Elite.html" class="anime-link">Class of Elite</a>
+    <a href="Bouquet.html" class="anime-link">Bouquet</a>
+    <a href="One Punch Man.html" class="anime-link">One Punch Man</a>
+    
+    <a href="Haikyu.html" class="anime-link">Haikyu</a>
+    <a href="jijutsu kaisen.html" class="anime-link">jijutsu kaisen</a>
+    <a href="My Hero.html" class="anime-link">My Hero</a>
+
+    <!--slideshow-->
+    <a href="cyberpunk.html" class="anime-link">cyberpunk</a>
+    <a href="Deathnote.html" class="anime-link">Death Note</a>
+    <a href="foodWars.html" class="anime-link">foodWars</a>
+    <a href="demonlord.html" class="anime-link">demonlord</a>
+    <a href="kakeguri.html" class="anime-link">kakeguri</a>
+    
+  </div>
+
+  
+  <div class="menu-items" id="menuItems" style="display: none;">
+    <!-- Your menu links here -->
+    <a href="Announcements.html">News</a>
+    <a href="Merchandise.html">Merchandise</a>
+    
+  </div>
+
+  </header>
+
+  
+  <!--slideshow section-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="slideshow/Cyberpunks.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="box">
+         <a href="cyberpunk.html"><h1>Cyberpunk Edge runners</h1></a>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="slideshow/death note.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="box">
+            <a href="Deathnote.html"><h1>DeathNote</h1></a>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      </div>
+      <div class="carousel-item">
+        <img src="slideshow/Food wars.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="box">
+            <a href="foodWars.html"><h1>Foodwars</h1></a>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="slideshow/How to not summon a deamon lord.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="box">
+            <a href="demonlord.html"> <h1>How to not summon  Demon Lord</h1></a>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="slideshow/Kakeguri.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="box">
+            <a href="kakeguri.html"> <h1>kakeguri</h1></a>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+ <!-- New Anime Episodes section -->
+ <div class="new-episodes">
+  <h2>New Anime Episodes</h2>
+  <div class="episode-container">
+  <div class="episode">
+      <a href="Dangan.html"><img src="images/Dangan.jpg" alt="Dangan "></a> 
+      <p>Dangan <br>Ep 21</p>
+  </div>
+  <div class="episode">
+    <a href="blackClover.html"><img src="images/Clover.jpg" alt="Black Clover"></a>
+      <p>Black Clover <br>Ep 3</p>
+  </div>
+  <div class="episode">
+    <a href="HXH.html"><img src="images/Hunterx.jpg" alt="Hunter X Hunter"></a>
+      <p>Hunter X Hunter<br>Ep 34</p>
+  </div>
+  <div class="episode">
+    <a href="re zero.html"><img src="images/REzer.jpg" alt="Re:Zero"></a>
+      <p>RE:Zero<br>Ep 56</p>
+  </div>
+  <div class="episode">
+    <a href="Assassination Class.html"><img src="images/assasinclass.jpg" alt="Assasination classroom"></a>
+      <p>Assasination Classroom<br>Ep 12</p>
+  </div>
+
+  <div class="episode">
+    <a href="Class of Elite.html"> <img src="images/asssasinelite.jpg" alt="classroom of the elite"></a>
+    <p>classroom of the elite<br>Ep 22</p>
+</div>
+<div class="episode">
+  <a href="Bouquet.html"><img src="images/bouquet.jpg" alt="bouquet"></a>
+  <p>bouquetm<br>Ep 4</p>
+</div>
+<div class="episode">
+  <a href="Demon slayer.html"><img src="images/DemonSlay.jpg" alt="DemonSlayer"></a>
+  <p>Demon Slayer<br>Ep 121</p>
+</div>
+<div class="episode">
+  <a href="Haikyu.html"><img src="images/haikyuu.jpg" alt="haikyuu"></a>
+  <p>haikyuu<br>Ep 6</p>
+</div>
+<div class="episode">
+  <a href="jijutsu kaisen.html"><img src="images/jijutsu.jpg" alt="jijutsu Kaisen"></a>
+  <p>jijutsu kaisen<br>Ep 3</p>
+</div>
+<div class="episode">
+  <a href="My Hero.html"><img src="images/myhero.jpg" alt="My hero academia"></a>
+  <p>My hero academia<br>Ep 11</p>
+</div>
+<div class="episode">
+  <a href="One Punch Man.html"><img src="images/onepunch.jpg" alt="One punch man"></a>
+  <p>One punch man<br>Ep 20</p>
+</div>
+
+</div>    
+      </div>
+
+      <!-- New Anime release section -->
+ <div class="new-release">
+  <h2> Anime releases</h2>
+  <div class="release-container">
+  <div class="release">
+      <a href="AOT.html"><img src="images2/Attack on Titan.jpg" alt="Attack on Titan "></a>
+      <p>Attack on Titan <br>Ep 21</p>
+  </div>
+  <div class="release">
+      <a href="Black butler.htm"><img src="images2/black butler.jpg" alt="Black Clover"></a>
+      <p>Black butler <br>Ep 3</p>
+  </div>
+  <div class="release">
+    <a href="blue lock.html"><img src="images2/Blue lock.jpg" alt="Hunter X Hunter"></a>
+      <p>Blue lock<br>Ep 34</p>
+  </div>
+  <div class="release">
+    <a href="dakaichi.html"> <img src="images2/Dakaichi.jpg" alt="Re:Zero"></a>
+      <p>Dakaichi<br>Ep 56</p>
+  </div>
+  <div class="release">
+    <a href="Demon slayer.html"> <img src="images2/demon slayer.jpg" alt="Assasination classroom"></a>
+      <p>DemonSlayer<br>Ep 12</p>
+  </div>
+
+  <div class="release">
+    <a href="High rise invasion.html"> <img src="images2/high rise invasion.jpg" alt="classroom of the elite"></a>
+    <p>High rise invasion<br>Ep 22</p>
+</div>
+<div class="release">
+  <a href="hotarubi no mori.html"><img src="images2/hotarubi no mori.jpg" alt="bouquet"></a>
+  <p>hotarubi no mori<br>Ep 4</p>
+</div>
+<div class="release">
+  <a href="jijutsu kaisen.html"><img src="images2/jijutsu.jpg" alt="Black Clover"></a>
+  <p>jijutsu<br>Ep 121</p>
+</div>
+<div class="release">
+  <a href="naruto.html"><img src="images2/naruto.jpg" alt="Dangan"></a>
+  <p>naruto<br>Ep 6</p>
+</div>
+<div class="release">
+  <a href="jijutsu kaisen.html"><img src="images2/spirited away.jpg" alt="DemonSlayer"></a>
+  <p>spirited away<br>Ep 3</p>
+</div>
+<div class="release">
+  <a href="tokyo ghoul.html"> <img src="images2/tokyo ghoul.jpg" alt="haikyuu"></a>
+  <p>tokyo ghoul<br>Ep 11</p>
+</div>
+<div class="release">
+  <a href="Your Name.html"><img src="images2/your name.jpg" alt="Hunter x Hunter"></a>
+  <p>Your Name<br>Ep 30</p>
+</div>
+
+</div>    
+      </div>
+
+     
+  <!-- Most Popular Section -->
+<div class="most-popular">
+  <h2>Most Popular</h2>
+  <table>
+    <tr>
+      <td>
+        <div class="ranking-box">1</div>
+      </td>
+      <td>
+        <img src="images/Hunterx.jpg" alt="hunter x hunter">
+      </td>
+      <td>
+        <p>hunter x hunte</p>
+      </td>
+      <td>
+        <div class="ranking-box">2</div>
+      </td>
+      <td>
+        <img src="images/jijutsu.jpg" alt="jujitsu kaisen">
+      </td>
+      <td>
+        <p>jujitsu kaisen</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="ranking-box">3</div>
+      </td>
+      <td>
+        <img src="images/jojo.jpg" alt="jojo's bizzare adventure">
+      </td>
+      <td>
+        <p>jojo's bizzare adventure</p>
+      </td>
+      <td>
+        <div class="ranking-box">4</div>
+      </td>
+      <td>
+        <img src="images/myhero.jpg" alt="My hero academia">
+      </td>
+      <td>
+        <p>My Hero academia</p>
+      </td>
+    </tr>
+  </table>
+</div>
+<!--links section-->
+<div class="Links">
+  <div class="profile">
+    <img src="images/PJanime-logos_transparent.png" width="150" height="150" alt="PJanime Logo">
+  </div>
+  <div class="copyright">
+    <span>Copyright&copy; PJanime.2023 All Rights Reserved</span>
+  </div>
+  <div class="disclaimer">
+    <p>Any content or files in this website are not stored on the server but are provided by non-affiliated organizations</p>
+  </div>
+  <div class="link-list">
+    <a href="index.html" class="nav-link">HOME</a>
+    <a href="Contact Us.html" class="nav-link">CONTACT</a>
+    <a href="Recommendation.html" class="nav-link">RECOMMENDATIONS</a>
+    <a href="Announcements.html" class="nav-link">ANNOUNCEMENTS</a>
+    <a href="About Us.html" class="nav-link">ABOUT US</a>
+    <a href="Merchandise.html" class="nav-link">MERCHANDISE</a>
+  </div>
+</div>
+
+<script src="work.js"></script>
+</body>
+</html>
