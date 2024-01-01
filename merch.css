@@ -1,0 +1,69 @@
+/* your-stylesheet.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.merch-page {
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+.merch-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+}
+
+.merch-item {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.merch-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.merch-info p {
+    margin: 5px 0;
+}
+
+.links-section {
+    margin-top: 20px;
+}
+
+.links-section a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.links-section a:hover {
+    text-decoration: underline;
+}
+
+span {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999;
+}

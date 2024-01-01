@@ -305,14 +305,14 @@ margin-top: 2rem;
 
 }
 
-.downoad-links{
+.download-links{
 display: grid;
 grid-template-columns: repeat(3,1fr);
 gap: 10px;
 margin-bottom: 2rem;
 }
 
-.downoad-links a{
+.download-links a{
   text-align: center;
   background: var(--red);
   padding: 12px 20px;
@@ -321,9 +321,35 @@ margin-bottom: 2rem;
 font-size: 500;
 }
 
-.downoad-links a:hover{
+.download-links a:hover{
   background: var(--black);
   color: var(--red);
   transition:0.3s all linear;
 
+}
+
+@media screen and (max-width: 660px) {
+ header{
+  width: 660px;
+  margin: 0 auto;
+ }
+
+.new-episodes{
+  width: 660px;
+  margin: 0 auto;
+}
+.new-release{
+  width: 660px;
+  margin: 0 auto;
+}
+
+.most-popular{
+  width: 660px;
+  margin: 0 auto;
+}
+
+.Links{
+  width: 660px;
+  margin: 0 auto;
+}
 }

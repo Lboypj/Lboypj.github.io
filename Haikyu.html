@@ -7,71 +7,79 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header>
-      <div class="menu-icon" id="menuIcon">&#9776;</div>
+  <header>
 
-      <div class="logo" >
-        <img src="images/PJanime-logos_transparent.png" width =" 150">
-       </div>
+    <div class="menu-icon" id="menuIcon">&#9776;</div>
+
+     <!-- Sign-up and Login links -->
+  <div class="user-actions" id="userActions" style="display: none;">
+    <a href="signup and login.html" class="user-action">Sign Up|| Login</a>
+   
+  </div>
+
+  <div class="logo" >
+    <img src="images/PJanime-logos_transparent.png" width =" 150">
+   </div>
+
+  <div class="search-icon" id="searchIcon">&#128269;</div>
+
+  <!-- Search bar -->
+  <div class="search-bar" id="searchBar" style="display: none;">
+    <input type="text" id="searchInput" placeholder="Search...">
+    <button id="searchButton">Search</button>
+  </div>
+  
+  
+  <div id="searchResults"></div>
+
+  
+  <div class="anime-links" style="display: none;">
+    <!--new release-->
+    <a href="AOT.html" class="anime-link">Attack on Titan</a>
+    <a href="Black butler.html" class="anime-link">Black butler</a>
+    <a href="blue lock.html" class="anime-link">blue lock</a>
+    <a href="dakaichi.html" class="anime-link">dakaichi</a>
+    <a href="Demon slayer.html" class="anime-link">Demon slayer</a>
+    <a href="High rise invasion.html" class="anime-link">High rise invasion</a>
+    <a href="hotarubi no mori.html" class="anime-link">hotarubi no mori</a>
+    <a href="jijutsu kaisen.html" class="anime-link">jijutsu kaisen</a>
+    <a href="naruto.html" class="anime-link">naruto</a>
+    <a href="spirited away.html" class="anime-link">spirited away</a>
+    <a href="tokyo ghoul.html" class="anime-link">tokyo ghoul</a>
+    <a href="Your Name.html" class="anime-link">Your Name</a>
+
+    <!--new episode-->
+    <a href="Dangan.html" class="anime-link">Dangan</a>
+    <a href="blackClover.html" class="anime-link">blackClover</a>
+    <a href="HXH.html" class="anime-link">hunter x hunter</a>
+    <a href="re zero.html" class="anime-link">re zero</a>
+    <a href="Assassination Class.html" class="anime-link">Assassination Class</a>
+    <a href="Class of Elite.html" class="anime-link">Class of Elite</a>
+    <a href="Bouquet.html" class="anime-link">Bouquet</a>
+    <a href="One Punch Man.html" class="anime-link">One Punch Man</a>
     
-      <div class="search-icon" id="searchIcon">&#128269;</div>
+    <a href="Haikyu.html" class="anime-link">Haikyu</a>
+    <a href="jijutsu kaisen.html" class="anime-link">jijutsu kaisen</a>
+    <a href="My Hero.html" class="anime-link">My Hero</a>
+
+    <!--slideshow-->
+    <a href="cyberpunk.html" class="anime-link">cyberpunk</a>
+    <a href="Deathnote.html" class="anime-link">Death Note</a>
+    <a href="foodWars.html" class="anime-link">foodWars</a>
+    <a href="demonlord.html" class="anime-link">demonlord</a>
+    <a href="kakeguri.html" class="anime-link">kakeguri</a>
     
-      <!-- Search bar -->
-      <div class="search-bar" id="searchBar" style="display: none;">
-        <input type="text" id="searchInput" placeholder="Search...">
-        <button id="searchButton">Search</button>
-      </div>
-      
-      
-      <div id="searchResults"></div>
+  </div>
+
+  
+  <div class="menu-items" id="menuItems" style="display: none;">
+    <!-- Your menu links here -->
+    <a href="Announcements.html">News</a>
+    <a href="Merchandise.html">Merchandise</a>
     
-      
-      <div class="anime-links" style="display: none;">
-        <!--new release-->
-        <a href="AOT.html" class="anime-link">Attack on Titan</a>
-        <a href="Black butler.html" class="anime-link">Black butler</a>
-        <a href="blue lock.html" class="anime-link">blue lock</a>
-        <a href="dakaichi.html" class="anime-link">dakaichi</a>
-        <a href="Demon slayer.html" class="anime-link">Demon slayer</a>
-        <a href="High rise invasion.html" class="anime-link">High rise invasion</a>
-        <a href="hotarubi no mori.html" class="anime-link">hotarubi no mori</a>
-        <a href="jijutsu kaisen.html" class="anime-link">jijutsu kaisen</a>
-        <a href="naruto.html" class="anime-link">naruto</a>
-        <a href="spirited away.html" class="anime-link">spirited away</a>
-        <a href="tokyo ghoul.html" class="anime-link">tokyo ghoul</a>
-        <a href="Your Name.html" class="anime-link">Your Name</a>
-    
-        <!--new episode-->
-        <a href="Dangan.html" class="anime-link">Dangan</a>
-        <a href="blackClover.html" class="anime-link">blackClover</a>
-        <a href="HXH.html" class="anime-link">hunter x hunter</a>
-        <a href="re zero.html" class="anime-link">re zero</a>
-        <a href="Assassination Class.html" class="anime-link">Assassination Class</a>
-        <a href="Class of Elite.html" class="anime-link">Class of Elite</a>
-        <a href="Bouquet.html" class="anime-link">Bouquet</a>
-        <a href="One Punch Man.html" class="anime-link">One Punch Man</a>
-        <a href="Demon slayer.html" class="anime-link">Demon slayer</a>
-        <a href="Haikyu.html" class="anime-link">Haikyu</a>
-        <a href="jijutsu kaisen.html" class="anime-link">jijutsu kaisen</a>
-        <a href="My Hero.html" class="anime-link">My Hero</a>
-    
-        <!--slideshow-->
-        <a href="cyberpunk.html" class="anime-link">cyberpunk</a>
-        <a href="Deathnote.html" class="anime-link">Death Note</a>
-        <a href="foodWars.html" class="anime-link">foodWars</a>
-        <a href="demonlord.html" class="anime-link">demonlord</a>
-        <a href="kakeguri.html" class="anime-link">kakeguri</a>
-        
-      </div>
-    
-      
-      <div class="menu-items" id="menuItems" style="display: none;">
-        <!-- Your menu links here -->
-        <a href="Announcements.html">News</a>
-        <a href="Merchandise.html">Merchandise</a>
-        
-      </div>
-      </header>
+  </div>
+
+  </header>
 
       <div class="video-container container">
         <video src="new epsiode shorts/haikyu.MP4" muted autoplay="true"></video>
