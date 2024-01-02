@@ -59,6 +59,8 @@ header {
   border-radius: 5px;
 }
 
+
+
 /* Carousel Styles */
 .carousel-item img {
   background-size: cover;
@@ -86,6 +88,10 @@ header {
   padding: 20px;
 }
 
+.carousel-container{
+  padding: 0px;
+  
+}
 /* New Episodes Styles */
 .new-episodes {
   background-color: #000000;
@@ -352,4 +358,11 @@ font-size: 500;
   width: 660px;
   margin: 0 auto;
 }
+
+
+.carousel-container{
+  
+  width: 660px;
+}
+
 }
